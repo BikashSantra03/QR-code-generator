@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter your text or URL</h2>
+        <input type="text" placeholder="Text or URL" id="inputtext" />
+        <button onclick="qrGenerator()" id="generatebtn" class="btn">
+            Generate QR Code
+        </button>
+
+        <div class="imgBox">
+            <img src="" id="qr-img" />
+        </div>
+
+        <button onclick="downloadImage()" class="btn" id="downloadButton" style="display: none">
+            Download
+        </button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
+
+<!-- This code is written by Bikash Santra
+Linkedin : https://www.linkedin.com/in/bikash-santra-886901217/  -->
